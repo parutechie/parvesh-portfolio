@@ -9,10 +9,15 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Portfolio from './components/projects/Portfolio';
+import CustomCursor from './components/cursor/Cursor';
 
 const App = () => {
   return (
     <>
+    <div>
+      {/* Other components */}
+      <CustomCursor />
+    </div>
       <Header/>
       <main className='main'>
         <Home />

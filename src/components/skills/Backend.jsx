@@ -79,7 +79,7 @@ const Backend = () => {
                         <span className="skills__level">Basic</span>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     </div>
     );
