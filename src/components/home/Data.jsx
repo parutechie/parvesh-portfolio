@@ -56,7 +56,7 @@ const Data = () => {
                 </svg>
         </h1>
         <h3 className="home__subtitle">
-            Developerss 
+            Developers 
         </h3>
         <p className="home__description">
         I'm a passionate and dedicated creative developer located in Bangalore,India 
