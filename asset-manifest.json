@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/parvesh-portfolio/static/css/main.34f3ab58.css",
+    "main.js": "/parvesh-portfolio/static/js/main.710c2bc7.js",
+    "static/media/profileBW.jpg": "/parvesh-portfolio/static/media/profileBW.627e8e9257bfdf0fc0fa.jpg",
+    "static/media/aboutBW.jpg": "/parvesh-portfolio/static/media/aboutBW.1cfc5063051994417247.jpg",
+    "static/media/weather.png": "/parvesh-portfolio/static/media/weather.9ce93517009d28c90b9d.png",
+    "static/media/credsave.png": "/parvesh-portfolio/static/media/credsave.ab57874c709168982261.png",
+    "static/media/project3.webp": "/parvesh-portfolio/static/media/project3.b094b696f75369270c95.webp",
+    "static/media/Resume_Parvesh.pdf": "/parvesh-portfolio/static/media/Resume_Parvesh.f1df7bce6fb521960d3e.pdf",
+    "static/media/discord.png": "/parvesh-portfolio/static/media/discord.7a93369b7a143599751b.png",
+    "static/media/sun_light.png": "/parvesh-portfolio/static/media/sun_light.bcd61208f2795d8f4712.png",
+    "static/media/moon_dark.png": "/parvesh-portfolio/static/media/moon_dark.e5585e508bad58301c6c.png",
+    "index.html": "/parvesh-portfolio/index.html",
+    "main.34f3ab58.css.map": "/parvesh-portfolio/static/css/main.34f3ab58.css.map",
+    "main.710c2bc7.js.map": "/parvesh-portfolio/static/js/main.710c2bc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34f3ab58.css",
+    "static/js/main.710c2bc7.js"
+  ]
+}
