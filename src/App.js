@@ -10,12 +10,15 @@ import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Portfolio from './components/projects/Portfolio';
 import CustomCursor from './components/cursor/Cursor';
+import Theme from './components/theme/darklight';
+
 
 const App = () => {
   return (
     <>
     <div>
       {/* Other components */}
+      
       <CustomCursor />
     </div>
       <Header/>
@@ -30,6 +33,7 @@ const App = () => {
       </main>
       <Footer />
       <ScrollUp />
+      <Theme/>
     </>
   );
 }

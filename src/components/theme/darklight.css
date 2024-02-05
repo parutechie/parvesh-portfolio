@@ -1,0 +1,80 @@
+/* Dark mode styles */
+.dark-mode {
+  --title-color: hsl(0, 0%, 90%);
+  --title-color-dark: hsl(0, 0%, 10%);
+  --text-color: hsl(0, 0%, 70%);
+  --body-color: hsl(0, 0%, 20%);
+  --container-color: hsla(0, 0%, 10%, 0.8); 
+}
+
+.dark-mode .theme-container {
+  --title-color-dark: hsl(0, 0%, 100%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+}
+
+.dark-mode .theme-container:hover {
+  filter: invert(100%); /* Invert the colors on hover in dark mode */
+}
+
+.dark-mode .theme-toggle {
+  filter: brightness(100%) contrast(150%); 
+}
+
+.dark-mode .theme-toggle img {
+  filter: brightness(100%) contrast(100%); 
+}
+
+.theme-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  padding: 8px;
+}
+
+.theme-toggle {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.theme-container:hover .theme-toggle {
+  transform: rotate(180deg);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.2) rotate(0deg);
+}
+
+.light {
+  filter: brightness(100%);
+}
+
+.dark {
+  filter: brightness(70%);
+}
+
+@media screen and (max-width: 768px) {
+  .theme-container {
+    right: 5px;
+  }
+
+  .theme-toggle {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .theme-container {
+    right: 2px;
+  }
+
+  .theme-toggle {
+    width: 15px;
+    height: 15px;
+  }
+}

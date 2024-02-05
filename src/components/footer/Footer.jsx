@@ -2,6 +2,7 @@ import React from 'react';
 import "./footer.css";
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
         <div className="footer__container container">
@@ -18,17 +19,17 @@ const Footer = () => {
                 </li>
             </ul>
             <div className="footer__social">
-                <a href="https://twitter.com/parvesh_z?t=3EVdl8hO_RTU36WFifZLBA&s=09" className="home__social-icon" target="_blank">
+                <a href="https://twitter.com/parvesh_z?t=3EVdl8hO_RTU36WFifZLBA&s=09" className="home__social-icon" target="_blank" rel="noreferrer">
                     <i class = "bx bxl-twitter"></i>
                 </a>
-                <a href="https://github.com/parutechie" className="home__social-icon" target="_blank" >
+                <a href="https://github.com/parutechie" className="home__social-icon" target="_blank" rel="noreferrer">
                 <i class = "bx bxl-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/parvesh-a-174871192/" className="home__social-icon" target="_blank" >
+                <a href="https://www.linkedin.com/in/parvesh-a-174871192/" className="home__social-icon" target="_blank" rel="noreferrer">
                 <i class = "bx bxl-linkedin"></i>
                 </a>    
             </div>
-            <span className="footer__copy">&#169; Parvesh. All rights reserved</span>
+            <span className="footer__copy">&#169;{currentYear} Parvesh. All rights reserved</span>
         </div>
     </footer>
   );

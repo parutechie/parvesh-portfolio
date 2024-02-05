@@ -1,6 +1,7 @@
-import Project1 from "../../assets/project1.webp";
-import Project2 from "../../assets/project2.webp";
-import Project3 from "../../assets/project3.webp";
+import Project1 from "../../assets/credsave.png";
+import Project2 from "../../assets/discord.png";
+import Project3 from "../../assets/weather.png";
+import Project4 from "../../assets/project3.webp";
 
 
 export const projectsData = [
@@ -24,7 +25,7 @@ export const projectsData = [
     },
     {
         id: 4,
-        image: Project3,
+        image: Project4,
         title: "Logo's - Illustrator",
         category: "Designs",
     },

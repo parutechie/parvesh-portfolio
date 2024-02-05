@@ -54,7 +54,7 @@ const Cursor = () => {
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
     };
-  }, [colors]);
+  }, [coords]);
 
   return (
     <div>

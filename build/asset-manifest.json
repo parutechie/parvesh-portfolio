@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/parvesh-portfolio/static/css/main.0c8ec3f0.css",
+    "main.js": "/parvesh-portfolio/static/js/main.638f060f.js",
+    "static/media/profileBW.jpg": "/parvesh-portfolio/static/media/profileBW.627e8e9257bfdf0fc0fa.jpg",
+    "static/media/aboutBW.jpg": "/parvesh-portfolio/static/media/aboutBW.1cfc5063051994417247.jpg",
+    "static/media/project2.webp": "/parvesh-portfolio/static/media/project2.fc906070e9796abe3650.webp",
+    "static/media/project3.webp": "/parvesh-portfolio/static/media/project3.b094b696f75369270c95.webp",
+    "static/media/Resume_Parvesh.pdf": "/parvesh-portfolio/static/media/Resume_Parvesh.78856828c2c3517dcce4.pdf",
+    "static/media/project1.webp": "/parvesh-portfolio/static/media/project1.f2c54a35bc5d07af37ea.webp",
+    "index.html": "/parvesh-portfolio/index.html",
+    "main.0c8ec3f0.css.map": "/parvesh-portfolio/static/css/main.0c8ec3f0.css.map",
+    "main.638f060f.js.map": "/parvesh-portfolio/static/js/main.638f060f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c8ec3f0.css",
+    "static/js/main.638f060f.js"
+  ]
+}

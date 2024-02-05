@@ -4,13 +4,13 @@ import { FiTwitter, FiGithub, FiLinkedin} from "react-icons/fi";
 const Social = () => {
     return (
         <div className="home__social"> 
-            <a href="https://www.linkedin.com/in/parvesh-a-174871192/" className="home__social-icon" target="_blank">
+            <a href="https://www.linkedin.com/in/parvesh-a-174871192/" className="home__social-icon" target="_blank" rel="noreferrer">
                 <FiLinkedin />
             </a>
-            <a href="https://github.com/parutechie" className="home__social-icon" target="_blank">
+            <a href="https://github.com/parutechie" className="home__social-icon" target="_blank" rel="noreferrer">
                 <FiGithub />
             </a>
-            <a href="https://twitter.com/parvesh_z?t=3EVdl8hO_RTU36WFifZLBA&s=09" className="home__social-icon" target="_blank">
+            <a href="https://twitter.com/parvesh_z?t=3EVdl8hO_RTU36WFifZLBA&s=09" className="home__social-icon" target="_blank" rel="noreferrer">
                 <FiTwitter />
             </a>
         </div> 
